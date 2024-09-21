@@ -8,7 +8,7 @@ const connectDb = require("./utils/db");
 const errorMiddleware = require("./middlewares/error-middleware");
 
 const corsOptions = {
-    origin: "https://mediq-bf905.web.app",  // Allow the entire frontend domain
+    origin: "http://127.0.0.1:5500",  // Allow the entire frontend domain
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
 };
